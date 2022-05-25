@@ -63,31 +63,6 @@ int main() {
     if (stat("/sys/class/tty/", &st) == -1) {
         printf("Does not exist");
     }
-//    printf("\n");
-//    printf(devices[0]); printf("\n");
-//    printf(devices[1]); printf("\n");
-//    printf(devices[2]); printf("\n");
-//    printf(devices[3]); printf("\n");
-//
-//    printf(devices[4]); printf("\n");
-//    printf(devices[5]); printf("\n");
-//    printf(devices[6]); printf("\n");
-//    printf(devices[7]); printf("\n");
 
     return 0;
-}
-
-void OpenFileDialog()
-{
-    char filename[1024];
-    FILE *f = popen("zenity --file-selection", "r");
-    fgets(filename, 1024, f);
-    printf(filename);
-}
-void OpenFolderDialog()
-{
-    char filename_2[1024];
-    FILE *f_2 = popen("zenity --file-selection --directory", "r");
-    fgets(filename_2, 1024, f_2);
-    printf(filename_2);
 }
