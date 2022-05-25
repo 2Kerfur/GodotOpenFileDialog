@@ -17,6 +17,7 @@ void append_char(char* s, char c) {
 int main() {
 
 
+
     //create array for ComPorts
     int dirs_count = 0;
     DIR *ComPortsDir_count;
@@ -29,8 +30,8 @@ int main() {
     closedir(ComPortsDir_count);
     }
     printf("%d\n",dirs_count);
-    char devices[dirs_count][32];
 
+    char devices[dirs_count][32];
     //add values to dirs
     DIR *d;
     int counter_2 = 0;
@@ -47,20 +48,14 @@ int main() {
 
     printf("-----------\n");
 
+    char devices_path[dirs_count][32];
     for (int i = 0; i < counter_2; i += 1)
     {
-//        char str[15] = "/sys/class/tty/";
-//
-//        append_char(&str, devices[i]);
-//        strcat(str, devices[i]);
-//        printf(str);
+
+        char str[32] = "/sys/class/tty/";
+        printf(strcat(str, devices[i]));
+        printf("\n");
     }
-
-    char str[15] = "/sys/class/tty/";
-
-    append_char(&str, devices[1]);
-    strcat(str, devices[1]);
-    printf(str);
 
 
 
