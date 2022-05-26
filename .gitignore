@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+
+#special for project
+**/obj
+**/bin
+*.layout
+*.depend
+*.sh
