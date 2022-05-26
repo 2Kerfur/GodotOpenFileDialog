@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1653588065 source:/home/kerfur/Документы/DEV/c++/ZIP_TesterCodeBlocks/ComReader/main.c
+	"main.h"
+	"DirParser.h"
+
+1653588065 source:/home/kerfur/Документы/DEV/c++/ZIP_TesterCodeBlocks/ComReader/DirParser.c
+	<sys/types.h>
+	<sys/stat.h>
+	<dirent.h>
+	<unistd.h>
+	<stdio.h>
+	"DirParser.h"
+
+1653587876 /home/kerfur/Документы/DEV/c++/ZIP_TesterCodeBlocks/ComReader/DirParser.h
+
+1653587672 /home/kerfur/Документы/DEV/c++/ZIP_TesterCodeBlocks/ComReader/main.h
+	<string.h>
+	<dirent.h>
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+
+1653589608 source:/home/kerfur/Документы/DEV/c++/ZIP_TesterCodeBlocks/ComReader/src/main.c
+	"main.h"
+	"utils/dir.h"
+
+1653589079 /home/kerfur/Документы/DEV/c++/ZIP_TesterCodeBlocks/ComReader/src/main.h
+	<string.h>
+	<dirent.h>
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+
+1653590521 /home/kerfur/Документы/DEV/c++/ZIP_TesterCodeBlocks/ComReader/src/utils/dir.h
+
+1653589552 source:/home/kerfur/Документы/DEV/c++/ZIP_TesterCodeBlocks/ComReader/src/utils/dir.c
+	<sys/types.h>
+	<sys/stat.h>
+	<dirent.h>
+	<unistd.h>
+	<stdio.h>
+	"dir.h"
+
+1653589316 source:/home/kerfur/Документы/DEV/c++/ZIP_TesterCodeBlocks/ComReader/src/arduino/com_port.c
+
