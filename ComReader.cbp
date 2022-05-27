@@ -43,6 +43,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/utils/dir.h" />
+		<Unit filename="src/utils/native_dialog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/utils/native_dialog.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

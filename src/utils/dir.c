@@ -18,7 +18,20 @@ int GetDirsCount(char path[])
         }
     closedir(ComPortsDir_count);
     }
-    printf("%d\n",dirs_count);
-
     return dirs_count;
+}
+
+void GetDirsNames(char path[], int rows, int cols, char names_store_var[rows][cols])
+{
+    DIR *d;
+    int counter_2 = 0;
+    struct dirent *dir;
+    d = opendir(path);
+    if (d) {
+        while ((dir = readdir(d)) != NULL) {
+            strcpy(names_store_var[counter_2], dir->d_name);
+            counter_2 += 1;
+        }
+    closedir(d);
+    }
 }
