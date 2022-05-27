@@ -1,7 +1,8 @@
 #include <string.h>
 #include <dirent.h>
 #include <stdio.h>
-
+#include <unistd.h>
+#include <sys/stat.h>
 
 //for arduino input
 #include <stdlib.h>

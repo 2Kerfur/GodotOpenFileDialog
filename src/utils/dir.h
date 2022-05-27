@@ -2,6 +2,6 @@
 
 int GetDirsCount(char path[]);
 
-void GetDirsNames(char path[], char names_store_var[]);
+void GetDirsNames(char path[], int rows, int cols, char names_store_var[rows][cols]);
 
 void GetDirsPath();
