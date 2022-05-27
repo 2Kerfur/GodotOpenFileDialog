@@ -19,7 +19,6 @@ int main() {
     while (1)
     {
         printf(ReadComPort(port));
-
     }
     return 0;
 }
