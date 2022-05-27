@@ -10,7 +10,17 @@ int main() {
     char avaliable_devices[dirs_count][MAX_COLS];
     int dev_size = GetAvaliablePorts(dirs_count, MAX_COLS, avaliable_devices);
     printf("%d", dev_size);
+    printf("\n");
 
+
+
+    int port = OpenComPort(avaliable_devices[2]);
+
+    while (1)
+    {
+        printf(ReadComPort(port));
+
+    }
     return 0;
 }
 
