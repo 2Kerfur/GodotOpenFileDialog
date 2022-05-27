@@ -11,7 +11,6 @@
 #include <termios.h>
 
 //vars
-int dirs_count = 0;
 
 int main();
 
