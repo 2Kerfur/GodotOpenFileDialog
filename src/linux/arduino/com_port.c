@@ -1,5 +1,5 @@
 #include "com_port.h"
-#include "utils/dir.h"
+#include "linux/utils/dir.h"
 
 #define MAX_COLS 32
 #include <string.h>

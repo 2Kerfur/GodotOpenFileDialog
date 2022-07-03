@@ -1,3 +1,10 @@
+# 
+**/build
+**/.vscode
+**/.vs
+
+
+#Default gitignore ext for c & c++ ---------------
 # Prerequisites
 *.d
 
@@ -30,7 +37,6 @@
 *.exe
 *.out
 *.app
-
 
 #special for project
 **/obj
